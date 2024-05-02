@@ -1,0 +1,104 @@
+.el-container {
+  @include container;
+}
+
+
+.el-button a {
+  letter-spacing: .2rem;
+  font-size: 18px;
+  padding: 10px 25px;
+}
+
+.el-tag {
+  font-size: 15px;
+}
+
+.el-menu.el-menu--horizontal {
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+}
+
+.el-button--primary {
+  color: #FFF;
+  background-color: $green;
+  border-color: $green;
+}
+
+.el-button--primary:hover {
+  color: #FFF;
+  background-color: $greenhover;
+  border-color: $greenhover;
+}
+
+.el-timeline-item__content h4 {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 0 5px 0;
+}
+
+.el-timeline-item__content p {
+  margin: 0 0 10px 0;
+}
+
+.el-descriptions-row .el-button a {
+  padding: 0;
+}
+
+.el-button-group>.el-button {
+  font-size: 19px;
+  padding: 8px 27px;
+}
+
+.el-button-group>.el-button img {
+  width: 22px;
+  height: 22px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.el-tag {
+  margin-right: 5px;
+}
+
+.badge {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.description span {
+  display: inline-block;
+  vertical-align: sub;
+  padding-right: 10px;
+}
+
+sup.el-badge__content.el-badge__content--undefined.is-fixed {
+  transform: none;
+  right: 0;
+  left: 0;
+  width: min-content;
+  margin: auto;
+  top: -11px
+}
+
+a .el-button {
+  font-size: 22px;
+}
+
+.el-badge .el-button {
+  font-size: 14px;
+}
+
+.el-header {
+  padding: 0;
+}
+
+button.el-button.el-button--info span {
+  line-height: 1;
+}
+
+button.el-button.el-button--info span.contact {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  line-height: 1;
+}

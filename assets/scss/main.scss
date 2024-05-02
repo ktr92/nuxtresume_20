@@ -1,0 +1,172 @@
+@import './partials/params.scss';
+@import './partials/mixins.scss';
+@import './partials/elcustom.scss';
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('~/assets/fonts/FuturaPT-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('~/assets/fonts/FuturaPT-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('~/assets/fonts/FuturaPT-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url('~/assets/fonts/FuturaPT-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  font-family: 'Futura PT Book';
+  font-weight: normal;
+
+}
+
+p {
+  font-size: 16px;
+}
+
+
+
+h3 {
+  font-family: 'Futura PT';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p a {
+  color: $green;
+}
+
+h1, h2, h3, h4 {
+  a {
+    color: $green;
+  }
+}
+
+.projects__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 40px);
+}
+
+.el-button {
+  img {
+    vertical-align: sub;
+  }
+}
+
+.tags-images {
+
+  display: inline-block;
+  text-align: center;
+
+  * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  img {
+    width: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    filter: grayscale(100%);
+    margin-right: 0px;
+  }
+
+  span {
+    font-size: 13px;
+  }
+}
+
+.projects__header:hover .tags-images img {
+  filter: grayscale(0);
+}
+
+.projects__images {
+  display: flex;
+  align-items: center;
+}
+
+.tags-images {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.projects__item {
+  margin-bottom: 30px;
+}
+
+.projects__text p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.tags {
+  padding-right: 20px;
+  padding-bottom: 5px;
+  width: 100px;
+  display: inline-block;
+}
+
+span.projects__title {
+  font-family: 'Futura PT';
+}
+
+h1 {
+  font-size: 33px;
+  margin-top: 0;
+  font-family: "Futura PT";
+}
+
+.el-button i {
+  vertical-align: middle;
+}
+
+.el-button small {
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+b {
+  font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+  span.projects__title {
+    font-size: 22px;
+  }
+}

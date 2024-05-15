@@ -3,6 +3,10 @@ export default {
 
   head: {
     target: 'static',
+
+    router: {
+      base: '/nuxtresume_20/'
+    },
     title: 'nuxtresume',
     meta: [{
         charset: 'utf-8'

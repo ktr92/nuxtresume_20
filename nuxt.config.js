@@ -2,7 +2,6 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
 
   head: {
-    target: 'static',
 
     router: {
       base: '/nuxtresume_20/'

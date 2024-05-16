@@ -6,7 +6,7 @@
       "use": "@nuxtjs/vercel-builder",
       "config": {
         "serverFiles": ["api/**"],
-        "maxDuration": 50000
+        "maxDuration": 500000
       }
     }
   ]

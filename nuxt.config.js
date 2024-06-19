@@ -2,7 +2,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
 
   head: {
-
+    arget: 'static',
     router: {
       base: '/nuxtresume_20/'
     },

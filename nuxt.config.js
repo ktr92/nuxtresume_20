@@ -65,7 +65,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: process.env.NODE_ENV ? process.env.BASEURL : ' http://localhost:3000/'
+    baseURL: process.env.NODE_ENV ? process.env.BASEURL : 'https://earnest-smakager-9c8056.netlify.app/'
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

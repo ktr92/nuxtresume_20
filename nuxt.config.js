@@ -60,7 +60,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: process.env.NODE_ENV ? process.env.BASEURL : 'https://earnest-smakager-9c8056.netlify.app/'
+    baseURL:  process.env.BASEURL 
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

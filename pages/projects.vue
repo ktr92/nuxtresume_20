@@ -28,11 +28,6 @@ export default {
       await store.dispatch('fetchProjects');
     }
   },
-  computed: {
-    projects() {
-      return this.$store.state.projects;
-    },
-  },
   methods: {
     async fetchProjects() {
       try {
@@ -53,7 +48,10 @@ export default {
   computed: {
     ...mapState([
       'about'
-    ])
+    ]),
+    projects() {
+      return this.$store.state.projects;
+    },
   }
 }
 </script>

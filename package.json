@@ -27,6 +27,7 @@
     "js-cookie": "^3.0.1",
     "jsonwebtoken": "^8.5.1",
     "jwt-decode": "^3.1.2",
+    "mongodb": "^6.7.0",
     "mongoose": "^8.3.5",
     "node-fetch-native": "^1.4.1",
     "nuxt": "^2.15.7",
@@ -36,7 +37,6 @@
     "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
-    
     "sass": "^1.49.9",
     "sass-loader": "^10.2.1"
   }

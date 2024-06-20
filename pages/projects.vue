@@ -21,13 +21,17 @@ export default {
        const dataset = await response.json();
        console.log(dataset); // Массив проектов из MongoDB
        this.projects = dataset
+       this.loaded = true
        return {dataset}
   },
-  fetchOnServer: false,
+  mounted() {
+     if (!this.loaded) this.$fetch()
+  },
   data() {
     return {
       activeNames: [false],
-      projects: null
+      projects: null,
+      loaded: false
     }
   },
   computed: {

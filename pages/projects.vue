@@ -18,7 +18,7 @@ import { mapState } from 'vuex'
 export default {
   // fetch для загрузки данных на клиенте (при переходах)
   async fetch() {
-    if (!this.projects) {  // Избегаем повторной загрузки, если данные уже есть
+    if (!this.projects && this.$store.state.projects.length === 0) {  // Избегаем повторной загрузки, если данные уже есть
       await this.fetchProjects();
     }
   },

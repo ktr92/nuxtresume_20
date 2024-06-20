@@ -5,7 +5,7 @@
         <AppText :data="about" />
       </el-card>
       <br>
-      <el-collapse v-model="activeNames" accordion v-for="(project, idx) in dataset" :key="idx" class="projects">
+      <el-collapse v-model="activeNames" accordion v-for="(project, idx) in projects" :key="idx" class="projects">
        
           <AppProject :data="project" />
          
@@ -17,15 +17,17 @@
 import { mapState } from 'vuex'
 export default {
   async fetch() {
-    const response = await fetch('/.netlify/functions/projects');
+       const response = await fetch('/.netlify/functions/projects');
        const dataset = await response.json();
        console.log(dataset); // Массив проектов из MongoDB
+       this.projects = dataset
        return {dataset}
   },
   
   data() {
     return {
-      activeNames: [false]
+      activeNames: [false],
+      projects: null
     }
   },
   computed: {

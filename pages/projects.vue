@@ -18,9 +18,20 @@ import { mapState } from 'vuex'
 export default {
   // fetch для загрузки данных на клиенте (при переходах)
   async fetch() {
-    if (!this.projects && this.$store.state.projects.length === 0) {  // Избегаем повторной загрузки, если данные уже есть
-      await this.fetchProjects();
-    }
+    console.log('Метод fetch вызван!'); 
+       console.log('Содержимое this.$store.state.projects:', this.$store.state.projects);
+
+       if (this.$store.state.projects.length === 0) { 
+           this.$store.dispatch('fetchProjects')
+               .then(() => {
+                   console.log('Данные успешно загружены!', this.$store.state.projects);
+               })
+               .catch(error => {
+                   console.error('Ошибка при загрузке данных:', error);
+               });
+       } else {
+           console.log('Данные уже в хранилище:', this.$store.state.projects);
+       }
   },
   // asyncData для загрузки данных на сервере (первоначальная загрузка)
   async asyncData({ store }) { 

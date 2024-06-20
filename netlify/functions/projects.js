@@ -7,10 +7,3 @@ mongoose.connect(keys.MONGO_URI, {})
   .catch((e) => console.log(e))
 
 mongoose.set('strictQuery', false);
-
-try {
-  const projects = await Project.find().sort({prsort: 1})
-  res.status(200).json(projects)
-} catch (error) {
-  res.status(500).json(error)
-}

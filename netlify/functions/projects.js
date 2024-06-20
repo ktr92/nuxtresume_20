@@ -11,7 +11,7 @@ const { MongoClient } = require('mongodb');
          await client.connect();
          const database = client.db('myFirstDatabase');
          const projects = database.collection('projects');
-         const result = await projects.find({}).toArray();
+         const result = await projects.find({}).toArray().sort({prsort: 1});
          console.log("Результат:", result);
    
          // Явно возвращаем данные

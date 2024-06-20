@@ -5,7 +5,7 @@
         <AppText :data="about" />
       </el-card>
       <br>
-      <el-collapse v-model="activeNames" accordion v-for="(project, idx) in dataset" :key="idx" class="projects">
+      <el-collapse v-model="activeNames" accordion v-for="(project, idx) in projects" :key="idx" class="projects">
        
           <AppProject :data="project" />
          
@@ -16,18 +16,34 @@
 <script>
 import { mapState } from 'vuex'
 export default {
-  async asyncData({store}) {
-   /* const dataset = await store.dispatch('projects/getAll')
-   return {dataset} */
-   try {
-    console.log('загружаем проекты')
-       const response = await fetch('/.netlify/functions/projects');
-       const dataset = await response.json();
-       console.log(dataset); // Массив проектов из MongoDB
-       return {dataset}
-     } catch (error) {
-       console.error('Ошибка при получении проектов:', error);
-     }
+  // fetch для загрузки данных на клиенте (при переходах)
+  async fetch() {
+    if (!this.projects) {  // Избегаем повторной загрузки, если данные уже есть
+      await this.fetchProjects();
+    }
+  },
+  // asyncData для загрузки данных на сервере (первоначальная загрузка)
+  async asyncData({ store }) { 
+    if (process.server || !store.state.projects.length) { // Выполняем на сервере или если данные не в Vuex
+      await store.dispatch('fetchProjects');
+    }
+  },
+  computed: {
+    projects() {
+      return this.$store.state.projects;
+    },
+  },
+  methods: {
+    async fetchProjects() {
+      try {
+        const response = await fetch('/.netlify/functions/projects');
+        const data = await response.json();
+        this.$store.commit('SET_PROJECTS', data); 
+        this.projects = data; // Дополнительно обновляем данные в data() для мгновенного отображения
+      } catch (error) {
+        console.error('Ошибка при получении проектов:', error);
+      }
+    },
   },
   data() {
     return {

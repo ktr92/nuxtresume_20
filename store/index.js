@@ -1,4 +1,5 @@
 export const state = () => ({
+  projects: [],
   name: "Кудашев Тимур",
   city: "Набережные Челны",
   date: "25 июня 1992",
@@ -84,4 +85,23 @@ export const state = () => ({
   </div>`
 
 })
+
+
+export const mutations = {
+  SET_PROJECTS(state, projects) {
+    state.projects = projects;
+  },
+};
+
+export const actions = {
+  async fetchProjects({ commit }) {
+    try {
+      const response = await fetch('/.netlify/functions/projects');
+      const data = await response.json();
+      commit('SET_PROJECTS', data);
+    } catch (error) {
+      console.error('Ошибка при получении проектов:', error);
+    }
+  },
+};
 

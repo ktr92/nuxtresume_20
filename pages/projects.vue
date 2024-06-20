@@ -17,16 +17,8 @@
 import { mapState } from 'vuex'
 export default {
   async asyncData({store}) {
-   /* const dataset = await store.dispatch('projects/getAll')
-   return {dataset} */
-   try {
-       const response = await fetch('/.netlify/functions/projects');
-       const dataset = await response.json();
-       console.log(dataset); // Массив проектов из MongoDB
-       return {dataset}
-     } catch (error) {
-       console.error('Ошибка при получении проектов:', error);
-     }
+   const dataset = await store.dispatch('projects/getAll')
+   return {dataset}
   },
   data() {
     return {

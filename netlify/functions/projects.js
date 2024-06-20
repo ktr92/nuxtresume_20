@@ -1,36 +1,29 @@
-
-
 const { MongoClient } = require('mongodb');
-
-const uri = process.env.MONGO_URI; 
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-
-
-export async function handler(event, context) {
-  
-  try {
-
-    await client.connect();
-    const database = client.db('myFirstDatabase'); 
-    const collection = database.collection('projects'); 
-
-    const projects = await collection.find().sort({prsort: 1})
-    res.status(200).json(projects)
-    console.log(projects)
-
-    return {
-      statusCode: 200,
-      body: JSON.stringify(projects),
-    };
-
-  } catch (error) {
-    res.status(500).json(error)
-  } finally {
-    // Закрываем соединение с MongoDB
-    await client.close();
-  }
-
-
-
- 
-}
+     const uri = process.env.MONGO_URI;
+   
+     exports.handler = async function(event, context) {
+       console.log("Функция запущена");
+       console.log("URI:", uri);
+   
+       try {
+         const client = new MongoClient(uri);
+         console.log("Подключение к MongoDB...");
+         await client.connect();
+         const database = client.db('myFirstDatabase');
+         const projects = database.collection('projects');
+         const result = await projects.find({}).toArray();
+         console.log("Результат:", result);
+   
+         // Явно возвращаем данные
+         return {
+           statusCode: 200,
+           body: JSON.stringify(result),
+         };
+       } catch (error) {
+         console.error("Ошибка:", error);
+         return {
+           statusCode: 500,
+           body: JSON.stringify({ error: 'Ошибка сервера' }),
+         };
+       }
+     };

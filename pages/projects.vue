@@ -23,7 +23,7 @@ export default {
        this.projects = dataset
        return {dataset}
   },
-  
+  fetchOnServer: false,
   data() {
     return {
       activeNames: [false],

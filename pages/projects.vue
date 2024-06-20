@@ -42,7 +42,8 @@ export default {
   },
   data() {
     return {
-      activeNames: [false]
+      activeNames: [false],
+      projects: null
     }
   },
   computed: {

@@ -4,7 +4,7 @@
       <AppText :data="about" />
     </el-card>
     <br />
-    <div v-if="$fetchState.pending">Загрузка проектов...</div>
+    <div v-if="$fetchState.pending" class='textloading'>Загрузка проектов...</div>
     <div v-else>
       <el-collapse
         v-model="activeNames"

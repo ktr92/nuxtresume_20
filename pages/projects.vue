@@ -20,6 +20,7 @@ export default {
    /* const dataset = await store.dispatch('projects/getAll')
    return {dataset} */
    try {
+    console.log('загружаем проекты')
        const response = await fetch('/.netlify/functions/projects');
        const dataset = await response.json();
        console.log(dataset); // Массив проектов из MongoDB

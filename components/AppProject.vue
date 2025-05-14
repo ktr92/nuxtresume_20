@@ -13,10 +13,7 @@
             </span>
           </div>
             </template> 
-          <div class="text item projects__text">
-              <p><vue-markdown>{{ data.prdescription }}</vue-markdown></p>
-          </div>
-          <el-button-group>
+             <el-button-group>
             <el-button type="primary" v-if="data.prgit">
               <a v-if="data.prgit === '0'" href="#">Github (по запросу)</a> 
               <a v-else :href="data.prgit" target="_blank">GitHub</a> 
@@ -28,6 +25,10 @@
               <a :href="data.prwork" target="_blank">Сайт</a> 
             </el-button>
           </el-button-group>
+          <div class="text item projects__text">
+              <p><vue-markdown>{{ data.prdescription }}</vue-markdown></p>
+          </div>
+         
     </el-collapse-item>
 </template>
 

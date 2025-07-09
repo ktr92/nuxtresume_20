@@ -2,7 +2,7 @@
   <div>
    <el-menu class="el-menu-demo" mode="horizontal" :router="true" :default-active="activeIndex2">
       <router-link index="1" to="/"><div>Резюме</div></router-link>
-      <router-link index="2" to="/projects"><div>Портфолио</div></router-link>
+      <router-link index="2" to="/myprojects"><div>Портфолио</div></router-link>
     </el-menu>
   </div>
 </template>

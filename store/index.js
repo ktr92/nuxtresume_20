@@ -1,33 +1,44 @@
 export const state = () => ({
   projects: [],
-  name: "Кудашев Тимур",
+  name: "Кудашев Тимур Ринатович",
   city: "Набережные Челны",
   date: "25 июня 1992",
-  status: "Ищу работу Frontend разработчиком Vue / Nuxt",
+  status: "Ищу работу Frontend разработчиком Vue / Nuxt. Удаленно или офис.",
   emailvalue: "ktr992@yandex.ru",
-  phonevalue: '89869108073',
+  phonevalue: '8-986-910-80-73',
   tgvalue: '//tttttt.me/ktr992',
-  description: 'Опыт адаптивной кроссбраузерной верстки более 10 лет. Опыт коммерческой Frontend разработки Vue, Nuxt более 4 лет',
+  description: `Frontend разработка:<br>
+- более 10 лет опыта верстки HTML, CSS/SCSS, JS/JQuery (более 100 проектов)<br>
+- более 8 лет опыта разработки на чистом Javascript - ES6 и выше<br>
+- более 3 лет опыта разработки на фреймворках - Vue 2 и Vue 3, а также Nuxt 2 и Nuxt 3<br>
+- более 2 лет опыта работы c TypeScript<br>
+
+- имеется опыт работы с REST API, MongoDB, MySQL, Firebase, Prisma ORM, Supabase<br>
+- небольшой опыт написание тестов Jest / Cypress<br>
+- использую в работе git, webpack, eslint <br>
+- помимо FrontEnd разработки, имеется опыт работы с CMS Битрикс, Opencart, Wordpress. <br>
+Ориентируюсь в PHP коде. <br>
+Имеется опыт работы с C++, Python-Django.`,
   skills: [    
-    { type: 'info', label: 'Vue' },
-    { type: 'info', label: 'Nuxt' },
-    { type: 'info', label: 'HTML - CSS - SCSS' },
-    { type: 'info', label: 'Javascript' },
-    { type: 'info', label: 'Typescript' }, 
+    { type: 'success ', label: 'Vue' },
+    { type: 'success ', label: 'Nuxt' },
+    { type: 'success ', label: 'HTML - CSS - SCSS' },
+    { type: 'success ', label: 'Javascript' },
+    { type: 'success ', label: 'Typescript' }, 
   ],
   skills2: [    
-       { type: 'info', label: 'REST API' },  
+       { type: 'warning ', label: 'REST API' },  
 
-   { type: 'info', label: 'Git' },
+   { type: 'warning ', label: 'Git' },
    /* { type: 'info', label: 'Pug' },   */
  /*    { type: 'info', label: 'Webpack' },  */   
-    { type: 'info', label: 'Figma / Photoshop' },
+    { type: 'warning ', label: 'Figma / Photoshop' },
    // { type: 'info', label: 'C++' },
    // { type: 'info', label: 'Python' },
    // { type: 'info', label: 'Matlab' },
-   { type: 'info', label: 'MongoDB' },
-    { type: 'info', label: 'MySQL' }, 
-       { type: 'info', label: 'Jest/Cypress' },  
+   { type: 'warning ', label: 'MongoDB' },
+    { type: 'warning ', label: 'MySQL' }, 
+       { type: 'warning ', label: 'Jest/Cypress' },  
   
    // { type: 'info', label: 'CMS Opencart' },
    // { type: 'info', label: 'CMS Diafan' }

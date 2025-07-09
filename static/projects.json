@@ -1,23 +1,9 @@
 [
-    {
-        "_id": "6672c48f2ba88a802ada644e1",
-        "prname": "Приложение для подбора жилья с календарем на Vue. Работа с API яндекс карт",
-        "prdescription": "",
-        "prtags": [
-            "nuxt",
-            "vue",
-            "mongodb"
-        ],
-        "prlink": "https://ktr92.github.io/rent_mapfilter/map.html",
-        "prgit": "https://github.com/ktr92/rent_mapfilter",
-        "prwork": "",
-        "prsort": 17,
-        "__v": 0
-    },
+    
     {
         "_id": "6672c48f2ba88a802ada644e",
-        "prname": "Приложение для изучения иностранных слов Nuxt3, TS",
-        "prdescription": "Аналог  quizlet.com\nДля входа используйте следующие доступы:\nпочта - ktr716@yandex.ru\nпароль - demo\n\n- авторизация sidebase\n- создание собственных уроков с наборами слов\n- импорт из excel-csv файла\n- 3 режима - переворачиваемые карточки, тест с выборов вариантов, и ручной ввод перевода\n- мультиязычность интерфейса",
+        "prname": "Приложение для изучения иностранных слов Nuxt3, TS + мобильное приложение Capacitor",
+        "prdescription": "Для входа используйте следующие доступы:\nпочта - ktr716@yandex.ru\nпароль - demo\n\n- импорт из excel-csv файла - мультиязычность интерфейса",
         "prtags": [
             "nuxt",
             "vue",
@@ -31,8 +17,8 @@
     },
     {
         "_id": "66ae7ee5d9f73ec0b5f39035",
-        "prname": "Фронтенд приложение для учета инвестиций (в разработке)",
-        "prdescription": "Данное приложение полностью рендерится на фронте, с помощью динамичных компонентов, на основе предоставленных данных (инвестиционных портфелей).\nКотировки обновляются через API MOEX (Московской биржи).\n\nПриложение написано на нативном Javascript с помощью Typescript (без использования фреймворков, без использования каких-либо готовых библиотек).\n\nВ данный момент приложение не готово, содержит баги, неправильные расчеты.\nВ ближайшее время будет изменени API на другой источник с целью использования Websocket для обновления котировок в режиме онлайн мгновенно при появлении сделки по инструменту.\n",
+        "prname": "Фронтенд приложение для учета инвестиций (в разрабтке)",
+        "prdescription": "Данное приложение полностью рендерится на фронте, с помощью динамичных компонентов, на основе предоставленных данных (инвестиционных портфелей).\nКотировки обновляются через API MOEX (Московской биржи).\n\nПриложение написано на нативном Javascript с помощью Typescript (без использования фреймворков, без использования каких-либо готовых библиотек).\n\nВ данный момент приложение не готово, содержит баги.\n",
         "prtags": [
             "js",
             "ts"
@@ -52,7 +38,7 @@
             "vue"
         ],
         "prlink": "https://itrent.onrender.com/",
-        "prgit": "",
+        "prgit": "https://github.com/ktr92/itrent",
         "prwork": "",
         "prsort": 0,
         "__v": 0
@@ -136,13 +122,26 @@
         "prtags": [
             "vue",
             "html",
-            "css",
-            "jquery"
+            "css"
         ],
         "prlink": "https://ktr92.github.io/sutochno/innerpage.html",
         "prgit": "https://github.com/ktr92/sutochno",
-        "prwork": "",
+        "prwork": "//ohta-rent.ru/catalog/rent/apartamenty/",
         "prsort": 16,
+        "__v": 0
+    },
+    {
+        "_id": "6672c48f2ba88a802ada644e1",
+        "prname": "Приложение для подбора жилья с календарем на Vue. Работа с API яндекс карт",
+        "prdescription": "",
+        "prtags": [
+            "vue",
+            "js"
+        ],
+        "prlink": "https://ktr92.github.io/rent_mapfilter/map.html",
+        "prgit": "https://github.com/ktr92/rent_mapfilter",
+        "prwork": "//vse.rent/catalog/goroda/",
+        "prsort": 17,
         "__v": 0
     },
     {
@@ -156,8 +155,8 @@
             "elementui",
             "scss"
         ],
-        "prlink": "https://nuxtresume.vercel.app/projects",
-        "prgit": "https://github.com/ktr92/nuxtresume",
+        "prlink": "https://nuxtresume.netlify.app/",
+        "prgit": "https://github.com/ktr92/nuxtresume_20",
         "prwork": "",
         "__v": 0,
         "prsort": 20
@@ -184,14 +183,43 @@
         ],
         "prlink": "",
         "prgit": "",
-        "prwork": "https://spanishcosmetics.ru/",
+        "prwork": "//spanishcosmetics.ru/",
         "prsort": 27,
+        "__v": 0
+    },
+    {
+        "_id": "624363bfd9231d55c3dd045c1",
+        "prname": "katalinashop - Интернет магазин OpenCart CMS",
+        "prdescription": "",
+        "prtags": [
+            "opencart"
+        ],
+        "prlink": "",
+        "prgit": "",
+        "prwork": "//katalinashop.ru/",
+        "prsort": 27,
+        "__v": 0
+    },
+     {
+        "_id": "6598048aaa31ea98152726741",
+        "prname": "Верстка интерактивной таблицы",
+        "prdescription": "",
+        "prtags": [
+            "html",
+            "js",
+            "scss",
+            "figma"
+        ],
+        "prlink": "https://ktr92.github.io/nft_kol/dist/kol_main_062025.html",
+        "prgit": "https://github.com/ktr92/nft_kol/tree/main_062025",
+        "prwork": "//leak.me/",
+        "prsort": 28,
         "__v": 0
     },
     {
         "_id": "6598048aaa31ea9815272674",
         "prname": "LEAKME - Верстка сайта  ",
-        "prdescription": "Вертска сайта с масштабируемым адаптивом под ширину экрана. ",
+        "prdescription": "Верстка сайта с масштабируемым адаптивом под ширину экрана. ",
         "prtags": [
             "html",
             "js",
@@ -200,8 +228,59 @@
         ],
         "prlink": "https://ktr92.github.io/nft_smarwallets/dist/start.html",
         "prgit": "https://github.com/ktr92/nft_smarwallets",
-        "prwork": "",
+        "prwork": "//leak.me/",
         "prsort": 28,
+        "__v": 0
+    },
+    {
+        "_id": "6598048aaa31ea9815272674",
+        "prname": "LEAKME - Верстка лендинга  ",
+        "prdescription": "Верстка сайта с масштабируемым адаптивом под ширину экрана. ",
+        "prtags": [
+            "html",
+            "js",
+            "scss",
+            "figma"
+        ],
+        "prlink": "https://ktr92.github.io/nft_kol/dist/landing.html",
+        "prgit": "",
+        "prwork": "//leak.me/",
+        "prsort": 28,
+        "__v": 0
+    },
+
+     {
+        "_id": "67729d1f1ebbe837a76849ab",
+        "prname": "AZLOG ЛК - верстка страниц и разработка калькулятора",
+        "prdescription": "Верстка личного кабинета оператора грузоперевозок.\nРазработка калькулятора для расчета доставки.",
+        "prtags": [
+            "html",
+            "css",
+            "js",
+            "figma"
+        ],
+        "prlink": "https://ktr92.github.io/azlog_lk/dist/newcalc2.html",
+        "prgit": "https://github.com/ktr92/azlog_lk",
+        "prwork": "https://azlog.ru/calc/",
+        "prsort": 29,
+        "__v": 0
+    },
+   
+    {
+        "_id": "63bd1923685235b86d8c4870",
+        "prname": "Borisik - Верстка интернет-магазина",
+        "prdescription": "Адаптивная верстка сайта с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами ",
+        "prtags": [
+            "html",
+            "scss",
+            "js",
+            "figma",
+            "webpack"
+        ],
+        "prlink": "https://ktr92.github.io/borisik/dist/index.html",
+        "prgit": "https://github.com/ktr92/borisik",
+        "prwork": "//borisik.ru",
+        "prsort": 29,
         "__v": 0
     },
     {
@@ -217,7 +296,7 @@
         ],
         "prlink": "https://ktr92.github.io/meatshop/start.html",
         "prgit": "https://github.com/ktr92/meatshop",
-        "prwork": "",
+        "prwork": "//shop.kolbasa.ru/",
         "prsort": 29,
         "__v": 0
     },
@@ -232,26 +311,11 @@
         ],
         "prlink": "https://ktr92.github.io/sweetstore/dist/start.html",
         "prgit": "https://github.com/ktr92/sweetstore",
-        "prwork": "",
+        "prwork": "//sweetstore.ru/",
         "prsort": 29,
         "__v": 0
     },
-    {
-        "_id": "67729d1f1ebbe837a76849ab",
-        "prname": "AZLOG ЛК - верстка страниц и разработка калькулятора",
-        "prdescription": "Верстка личного кабинета оператора грузоперевозок.\nРазработка калькулятора для расчета доставки.",
-        "prtags": [
-            "html",
-            "css",
-            "js",
-            "figma"
-        ],
-        "prlink": "https://ktr92.github.io/azlog_lk/dist/start.html",
-        "prgit": "https://github.com/ktr92/azlog_lk",
-        "prwork": "",
-        "prsort": 29,
-        "__v": 0
-    },
+   
     {
         "_id": "6696c6ebf2e8ee376f9405ab",
         "prname": "TIHRYBCOM - Верстка сайта",
@@ -264,7 +328,7 @@
         ],
         "prlink": "https://ktr92.github.io/tihrybkom/dist/start.html",
         "prgit": "https://github.com/ktr92/tihrybkom",
-        "prwork": "",
+        "prwork": "https://tihrybkom.info/",
         "prsort": 30,
         "__v": 0
     },
@@ -295,7 +359,7 @@
         ],
         "prlink": "https://ktr92.github.io/fishproduct/start.html",
         "prgit": "https://github.com/ktr92/fishproduct",
-        "prwork": "",
+        "prwork": "https://rsp-market.ru/",
         "prsort": 30,
         "__v": 0
     },
@@ -311,7 +375,7 @@
         ],
         "prlink": "//ktr92.github.io/newnbki/start.html",
         "prgit": "https://github.com/ktr92/newnbki",
-        "prwork": "//www.nbki.ru/",
+        "prwork": "//nbki.ru/",
         "__v": 0,
         "prsort": 30
     },
@@ -328,7 +392,7 @@
         ],
         "prlink": "https://ktr92.github.io/azlog_new/start.html",
         "prgit": "https://github.com/ktr92/azlog-webpack",
-        "prwork": "https://azlog.na4u.ru/",
+        "prwork": "//azlog.ru/",
         "__v": 0,
         "prsort": 30
     },
@@ -344,7 +408,7 @@
         ],
         "prlink": "https://ktr92.github.io/r2grupp/start.html",
         "prgit": "https://github.com/ktr92/r2grupp",
-        "prwork": "",
+        "prwork": "//r2grupp.ru",
         "prsort": 31,
         "__v": 0
     },
@@ -360,7 +424,7 @@
         ],
         "prlink": "https://ktr92.github.io/maridel/start.html",
         "prgit": "https://github.com/ktr92/maridel",
-        "prwork": "",
+        "prwork": "//maridel.ru",
         "prsort": 33,
         "__v": 0
     },
@@ -391,8 +455,8 @@
             "webpack",
             "figma"
         ],
-        "prlink": "//allagency.tmweb.ru/start.html",
-        "prgit": "https://github.com/ktr92/all-agency/settings",
+        "prlink": "https://ktr92.github.io/all-agency/dist/",
+        "prgit": "https://github.com/ktr92/all-agency",
         "prwork": "",
         "__v": 0,
         "prsort": 40
@@ -408,9 +472,9 @@
             "webpack",
             "photoshop"
         ],
-        "prlink": "//empis.webtm.ru/start.html",
-        "prgit": "https://github.com/ktr92/azlog-webpack",
-        "prwork": "",
+        "prlink": "https://ktr92.github.io/empis/project-support.html",
+        "prgit": "https://github.com/ktr92/empis",
+        "prwork": "//empis.ru",
         "__v": 0,
         "prsort": 40
     },
@@ -427,7 +491,7 @@
         ],
         "prlink": "https://ktr92.github.io/nbki-lk/dist/start.html",
         "prgit": "https://github.com/ktr92/nbki-lk",
-        "prwork": "",
+        "prwork": "https://person.nbki.ru/login",
         "__v": 0,
         "prsort": 40
     },
@@ -476,7 +540,7 @@
         ],
         "prlink": "https://ktr92.github.io/remvac/start.html",
         "prgit": "https://github.com/ktr92/remvac",
-        "prwork": "",
+        "prwork": "https://remvac.ru/",
         "prsort": 41,
         "__v": 0
     },
@@ -723,7 +787,7 @@
     },
     {
         "_id": "6240b850a20ea79d992ab801",
-        "prname": "PROVANS - Вертская сайта отеля",
+        "prname": "PROVANS - Версткая сайта отеля",
         "prdescription": "Адаптивная верстка сайта компании для последующей интеграции на Битрикс.",
         "prtags": [
             "html",

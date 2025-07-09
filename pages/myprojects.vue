@@ -8,7 +8,16 @@
         style="bottom: 20px;top: unset;left: 0;right: 0;width: 100%;opacity: 1;position: relative;transform: none;margin: 20px auto;">
         <i class="el-message__icon el-icon-warning  "></i>
         <p class="el-message__content" style="font-size: 18px">
-          Еще более 40 моих проектов не могут быть опубликованы
+         Часть моих проектов не могут быть опубликованы. Кроме того, невозможно продемонстрировать опыт работы связанный с доработками на проектах.
+        </p>
+      </div>
+       <div
+        role="alert"
+        class="el-message el-message--warning"
+        style="bottom: 20px;top: unset;left: 0;right: 0;width: 100%;opacity: 1;position: relative;transform: none;margin: 20px auto;">
+        <i class="el-message__icon el-icon-warning  "></i>
+        <p class="el-message__content" style="font-size: 18px">
+        Среди представленных ниже работ - исключительно коммерческий опыт. В каждом проекте указаны ссылки на Демонстрацию приложения, Репозиторий моей работы, а также ссылка на реальный сайт, на котором использовалась моя работа.
         </p>
       </div>
 <!--     </el-card> -->

@@ -17,7 +17,7 @@
       <h3>О себе</h3>
       <AppText :data="description"/>
 
-      <NuxtLink to="/projects"><el-button type="primary">Перейти в портфолио</el-button></NuxtLink>
+      <NuxtLink to="/myprojects"><el-button type="primary">Перейти в портфолио</el-button></NuxtLink>
          
       <h3>Образование и Опыт работы</h3>
       <AppTimeline :data="experience"/> 

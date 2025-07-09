@@ -56,7 +56,7 @@ export const state = () => ({
     {
       date: '2021 - 2022',
       title: 'ООО ИПОТЕХ. Иннополис',
-      description: 'Frontend разработка на проекте Vue / Nuxt + REST API - подбор помещений для аренды. ',
+      description: 'Frontend разработка на проекте Vue / Nuxt + REST API -  <a href="//itrent.onrender.com/calculator" target="_blank">подбор помещений для аренды</a>',
       role: 'Frontend-разработчик',
       status: 'past',
       id: '004'

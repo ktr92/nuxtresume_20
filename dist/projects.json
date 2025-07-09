@@ -1,5 +1,20 @@
 [
     {
+        "_id": "6672c48f2ba88a802ada644e1",
+        "prname": "Приложение для подбора жилья с календарем на Vue. Работа с API яндекс карт",
+        "prdescription": "",
+        "prtags": [
+            "nuxt",
+            "vue",
+            "mongodb"
+        ],
+        "prlink": "https://ktr92.github.io/rent_mapfilter/map.html",
+        "prgit": "https://github.com/ktr92/rent_mapfilter",
+        "prwork": "",
+        "prsort": 17,
+        "__v": 0
+    },
+    {
         "_id": "6672c48f2ba88a802ada644e",
         "prname": "Приложение для изучения иностранных слов Nuxt3, TS",
         "prdescription": "Аналог  quizlet.com\nДля входа используйте следующие доступы:\nпочта - ktr716@yandex.ru\nпароль - demo\n\n- авторизация sidebase\n- создание собственных уроков с наборами слов\n- импорт из excel-csv файла\n- 3 режима - переворачиваемые карточки, тест с выборов вариантов, и ручной ввод перевода\n- мультиязычность интерфейса",

@@ -4,8 +4,7 @@
       <AppText :data="about" />
     </el-card>
     <br />
-    <div v-if="$fetchState.pending" class='textloading'>Загрузка проектов...</div>
-    <div v-else>
+    <div v-if="projects">
       <el-collapse
         v-model="activeNames"
         accordion
@@ -16,22 +15,19 @@
         <AppProject :data="project" />
       </el-collapse>
     </div>
+    <div v-else>
+      Загрузка проектов...
+    </div>
   </div>
 </template>
 
 <script>
 import { mapState } from "vuex";
-export default {
-  async fetch() {
-    const response = await fetch("/api/projects"); //  await fetch("/.netlify/functions/projects"); 
-    const dataset = await response.json();
-    console.log(dataset); // Массив проектов из MongoDB
-    this.projects = dataset;
-    this.loaded = true;
-    return { dataset };
-  },
+import jsonprojects from '~/static/projects.json'
+export default { 
   mounted() {
-    if (!this.loaded) this.$fetch();
+    console.log('jsonprojects: ', jsonprojects)
+    this.projects = jsonprojects
   },
   data() {
     return {

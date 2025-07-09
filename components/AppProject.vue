@@ -2,7 +2,11 @@
   <el-collapse-item :name="data.prname">
     <template slot="title">
       <div class="projects__header clearfix">
-        <span class="projects__title">{{ data.prname }}</span>
+        <div class="flex">
+          <span class="projects__title">#{{ index + 1 }} - </span>
+          <span class="projects__title">{{ data.prname }}</span>
+        </div>
+      
         <span class="projects__images">
           <span v-for="prtag in data.prtags" :key="prtag" class="tags-images">
             <span v-if="tags[prtag]">
@@ -38,13 +42,14 @@
 
 <script>
 export default {
-  props: ["data"],
+  props: ["data", 'index'],
   data() {
     return {
       tags: [],
     };
   },
   mounted() {
+    console.log(this.index)
     this.tags = this.$store.getters["projects/tags"];
   },
 };

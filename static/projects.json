@@ -249,6 +249,57 @@
         "__v": 0
     },
 
+      {
+        "_id": "6240a8e9a20ea79d992ab7d0",
+        "prname": "NBKI - Верстка сайта",
+        "prdescription": "Адаптивная верстка информационного сайта для крупнейшего в России бюро кредитных историй. Интегрирована на Битрикс.",
+        "prtags": [
+            "html",
+            "css",
+            "jquery",
+            "figma"
+        ],
+        "prlink": "https://ktr92.github.io/nbki_v5/start.html",
+        "prgit": "https://github.com/ktr92/nbki_v5",
+        "prwork": "//nbki.ru/",
+        "__v": 0,
+        "prsort": 30
+    },
+    {
+        "_id": "6240a945a20ea79d992ab7d4",
+        "prname": "NBKI story - Верстка блога ",
+        "prdescription": "Адаптивная верстка сайта-блога для крупнейшего бюро кредитных историй в России. Интегрирована на Битрикс. В демо не включены многочисленные доработки и макеты новых модулей.",
+        "prtags": [
+            "html",
+            "css",
+            "jquery",
+            "figma"
+        ],
+        "prlink": "https://ktr92.github.io/storynbki/index.html",
+        "prgit": "https://github.com/ktr92/storynbki",
+        "prwork": "//story.nbki.ru/",
+        "__v": 0,
+        "prsort": 35
+    },
+
+     {
+        "_id": "6240b344a20ea79d992ab7e3",
+        "prname": "NBKI - Верстка личного кабинета ",
+        "prdescription": "Адаптивная верстка страниц личного кабинета для сервиса кредитных историй НБКИ. В дальнейшем был передан на интегрирацию программистам, однако нет возможности продемострировать рабочую версию.",
+        "prtags": [
+            "html",
+            "scss",
+            "jquery",
+            "webpack",
+            "figma"
+        ],
+        "prlink": "https://ktr92.github.io/nbki-lk/dist/start.html",
+        "prgit": "https://github.com/ktr92/nbki-lk",
+        "prwork": "https://person.nbki.ru/login",
+        "__v": 0,
+        "prsort": 40
+    },
+
      {
         "_id": "67729d1f1ebbe837a76849ab",
         "prname": "AZLOG ЛК - верстка страниц и разработка калькулятора",
@@ -309,9 +360,24 @@
             "scss",
             "figma"
         ],
-        "prlink": "https://ktr92.github.io/sweetstore/dist/start.html",
+        "prlink": "https://ktr92.github.io/sweetstore/dist/index.html",
         "prgit": "https://github.com/ktr92/sweetstore",
         "prwork": "//sweetstore.ru/",
+        "prsort": 29,
+        "__v": 0
+    },
+    {
+        "_id": "67729c581ebbe837a76849a0",
+        "prname": "COMPLEXSB - интернет-магазин",
+        "prdescription": "Адаптивная верстка сайта с каталогом",
+        "prtags": [
+            "html",
+            "scss",
+            "figma"
+        ],
+        "prlink": "https://ktr92.github.io/complexsb/dist/index.html",
+        "prgit": "https://github.com/ktr92/complexsb",
+        "prwork": "//complexsb.ru/",
         "prsort": 29,
         "__v": 0
     },
@@ -326,7 +392,7 @@
             "css",
             "figma"
         ],
-        "prlink": "https://ktr92.github.io/tihrybkom/dist/start.html",
+        "prlink": "https://ktr92.github.io/tihrybkom/dist/index.html",
         "prgit": "https://github.com/ktr92/tihrybkom",
         "prwork": "https://tihrybkom.info/",
         "prsort": 30,
@@ -363,22 +429,7 @@
         "prsort": 30,
         "__v": 0
     },
-    {
-        "_id": "6240a8e9a20ea79d992ab7d0",
-        "prname": "NBKI - Верстка сайта",
-        "prdescription": "Адаптивная верстка информационного сайта для крупнейшего в России бюро кредитных историй. Интегрирована на Битрикс.",
-        "prtags": [
-            "html",
-            "css",
-            "jquery",
-            "figma"
-        ],
-        "prlink": "//ktr92.github.io/newnbki/start.html",
-        "prgit": "https://github.com/ktr92/newnbki",
-        "prwork": "//nbki.ru/",
-        "__v": 0,
-        "prsort": 30
-    },
+  
     {
         "_id": "6240a72ca20ea79d992ab7bf",
         "prname": "AZLOG - Верстка сайта грузоперевозок",
@@ -428,39 +479,8 @@
         "prsort": 33,
         "__v": 0
     },
-    {
-        "_id": "6240a945a20ea79d992ab7d4",
-        "prname": "NBKI story - Верстка блога ",
-        "prdescription": "Адаптивная верстка сайта-блога для крупнейшего бюро кредитных историй в России. Интегрирована на Битрикс. В демо не включены многочисленные доработки и макеты новых модулей.",
-        "prtags": [
-            "html",
-            "css",
-            "jquery",
-            "figma"
-        ],
-        "prlink": "//storynbki.tmweb.ru/start.html",
-        "prgit": "https://github.com/ktr92/storynbki",
-        "prwork": "//story.nbki.ru/",
-        "__v": 0,
-        "prsort": 35
-    },
-    {
-        "_id": "6240b8eba20ea79d992ab805",
-        "prname": "ALL.AGENCY - Верстка информационного сайта",
-        "prdescription": "Адаптивная верстка простого сайта компании. ",
-        "prtags": [
-            "html",
-            "scss",
-            "jquery",
-            "webpack",
-            "figma"
-        ],
-        "prlink": "https://ktr92.github.io/all-agency/dist/",
-        "prgit": "https://github.com/ktr92/all-agency",
-        "prwork": "",
-        "__v": 0,
-        "prsort": 40
-    },
+    
+  
     {
         "_id": "6240b643a20ea79d992ab7f2",
         "prname": "EMPIS - верстка сайта веб студии",
@@ -478,10 +498,60 @@
         "__v": 0,
         "prsort": 40
     },
+   
+      {
+        "_id": "6240b9eaa20ea79d992ab809",
+        "prname": "PRADEX - Верстка интернет-магазина",
+        "prdescription": "Адаптивная верстка сайта интернет-магазина с кастомным слайдером и анимацией.",
+        "prtags": [
+            "html",
+            "css",
+            "js",
+            "photoshop"
+        ],
+        "prlink": "https://ktr92.github.io/pradex/",
+        "prgit": "https://github.com/ktr92/pradex",
+        "prwork": "//pradex-moscow.ru/",
+        "__v": 0,
+        "prsort": 1262
+    },
     {
-        "_id": "6240b344a20ea79d992ab7e3",
-        "prname": "NBKI - Верстка личного кабинета ",
-        "prdescription": "Адаптивная верстка страниц личного кабинета для сервиса кредитных историй НБКИ. В дальнейшем был передан на интегрирацию программистам, однако нет возможности продемострировать рабочую версию.",
+        "_id": "6241f2b38d35edecc1a1b6da",
+        "prname": "LUBICVETY - Верстка интернет магазина",
+        "prdescription": "Адаптивная верстка сайта под требования UMI.CMS с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами.",
+        "prtags": [
+            "html",
+            "css",
+            "jquery",
+            "figma"
+        ],
+        "prlink": "https://ktr92.github.io/lubicvety/start.html",
+        "prgit": "https://github.com/ktr92/lubicvety",
+        "prwork": "https://lubicvety.ru/",
+        "prsort": 250,
+        "__v": 0
+    },
+    
+    {
+        "_id": "6241a4f45249548129e72391",
+        "prname": "ADMINPANEL - Верстка личного кабинета",
+        "prdescription": "Адаптивная верстка личного кабинете для сервиса по работе с соцсетями. Передана на интеграцию программисту, но ссылки на рабочую версию у меня нет.",
+        "prtags": [
+            "html",
+            "css",
+            "jquery",
+            "figma"
+        ],
+        "prlink": "https://ktr92.github.io/adminpanel/start.html",
+        "prgit": "https://github.com/ktr92/adminpanel",
+        "prwork": "",
+        "prsort": 255,
+        "__v": 0
+    },
+  {
+        "_id": "6240b8eba20ea79d992ab805",
+        "prname": "ALL.AGENCY - Верстка информационного сайта",
+        "prdescription": "Адаптивная верстка простого сайта компании. ",
         "prtags": [
             "html",
             "scss",
@@ -489,44 +559,30 @@
             "webpack",
             "figma"
         ],
-        "prlink": "https://ktr92.github.io/nbki-lk/dist/start.html",
-        "prgit": "https://github.com/ktr92/nbki-lk",
-        "prwork": "https://person.nbki.ru/login",
+        "prlink": "https://ktr92.github.io/all-agency/dist/",
+        "prgit": "https://github.com/ktr92/all-agency",
+        "prwork": "",
         "__v": 0,
         "prsort": 40
     },
-    {
-        "_id": "6696c744f2e8ee376f9405b6",
-        "prname": "FASHIONMARKET - Верстка лендинга",
-        "prdescription": "Адаптивная верстка одностраничного сайта",
-        "prtags": [
-            "html",
-            "js",
-            "css",
-            "figma"
-        ],
-        "prlink": "https://ktr92.github.io/fashionmarket/dist/index.html",
-        "prgit": "https://github.com/ktr92/fashionmarket",
-        "prwork": "",
-        "prsort": 41,
-        "__v": 0
-    },
-    {
-        "_id": "659803b4aa31ea9815272671",
-        "prname": "AEROSPOILER - верстка сайта",
-        "prdescription": "Адаптивная верстка сайта ",
+
+        {
+        "_id": "6241a0f95249548129e7238b",
+        "prname": "EMPIS SUPPORT - Верстка лендинга",
+        "prdescription": "Адаптивная верстка одностраничного сайта компании.",
         "prtags": [
             "html",
             "css",
             "jquery",
             "photoshop"
         ],
-        "prlink": "https://ktr92.github.io/spoiler/start.html",
-        "prgit": "https://github.com/ktr92/spoiler",
-        "prwork": "",
-        "prsort": 41,
+        "prlink": "https://ktr92.github.io/empislanding2/dist/",
+        "prgit": "https://github.com/ktr92/empislanding2",
+        "prwork": "//support.empis.ru/",
+        "prsort": 1268,
         "__v": 0
     },
+
     {
         "_id": "63515a1e9b1c8a4e5fc5f510",
         "prname": "REMVAC - верстка сайта",
@@ -544,9 +600,10 @@
         "prsort": 41,
         "__v": 0
     },
+    
     {
         "_id": "63bd1a08685235b86d8c4880",
-        "prname": "CENTROZNAK - Верстка сайта",
+        "prname": "Центрознак  - Верстка сайта",
         "prdescription": "Адаптивная верстка сайта с каталогом, информационными страницами",
         "prtags": [
             "html",
@@ -557,7 +614,7 @@
         ],
         "prlink": "https://ktr92.github.io/centroznak/start.html",
         "prgit": "https://github.com/ktr92/centroznak",
-        "prwork": "",
+        "prwork": "https://centroznak.ru/",
         "prsort": 41,
         "__v": 0
     },
@@ -577,9 +634,190 @@
         "prsort": 41,
         "__v": 0
     },
+
+        {
+        "_id": "624186c15249548129e72353",
+        "prname": "SVETDORZNAK - Верстка интернет магазина",
+        "prdescription": "Адаптивная верстка сайта с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами. Реализован под интеграцию на Битрикс. ",
+        "prtags": [
+            "html",
+            "css",
+            "jquery",
+            "figma"
+        ],
+        "prlink": "https://ktr92.github.io/svetgorzkan/",
+        "prgit": "https://github.com/ktr92/svetgorzkan",
+        "prwork": "//svetdorznak.ru/",
+        "prsort": 1264,
+        "__v": 0
+    },
+    {
+        "_id": "624184765249548129e7234f",
+        "prname": "ZNAK23 - Верстка интернет магазина",
+        "prdescription": "Адаптивная верстка сайта с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами. Реализован под интеграцию на Битрикс. ",
+        "prtags": [
+            "html",
+            "css",
+            "jquery",
+            "figma"
+        ],
+        "prlink": "https://ktr92.github.io/23znak/",
+        "prgit": "https://github.com/ktr92/23znak",
+        "prwork": "//znak23.ru/",
+        "prsort": 1265,
+        "__v": 0
+    },
+    {
+        "_id": "62418a2c5249548129e72361",
+        "prname": "CHELAZ - Верстка сайта с каталогом",
+        "prdescription": "Адаптивная верстка небольшого сайта с каталогом для последующей интеграции на Битрикс.",
+        "prtags": [
+            "html",
+            "js",
+            "jquery",
+            "photoshop"
+        ],
+        "prlink": "https://ktr92.github.io/chelaz/",
+        "prgit": "https://github.com/ktr92/chelaz",
+        "prwork": "//chelaz.ru/",
+        "prsort": 1266,
+        "__v": 0
+    },
+    {
+        "_id": "62419d445249548129e72382",
+        "prname": "ZOLOTOYLEV - Верстка интернет-магазина",
+        "prdescription": "Адаптивная верстка интернет-магазина с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами. Приспособлен к интеграции на Битрикс.",
+        "prtags": [
+            "html",
+            "css",
+            "jquery",
+            "photoshop"
+        ],
+        "prlink": "https://ktr92.github.io/os-zolotoylev/",
+        "prgit": "https://github.com/ktr92/os-zolotoylev",
+        "prwork": "//zolotoylev.ru/",
+        "prsort": 1266,
+        "__v": 0
+    },
+ 
+    {
+        "_id": "6241a0f95249548129e7238b",
+        "prname": "EMPIS SUPPORT - Верстка лендинга",
+        "prdescription": "Адаптивная верстка одностраничного сайта компании.",
+        "prtags": [
+            "html",
+            "css",
+            "jquery",
+            "photoshop"
+        ],
+        "prlink": "https://ktr92.github.io/empislanding/dist/",
+        "prgit": "https://github.com/ktr92/empislanding",
+        "prwork": "//support.empis.ru/",
+        "prsort": 1268,
+        "__v": 0
+    },
+
+
+    {
+        "_id": "6241a0f95249548129e7238b",
+        "prname": "EMPIS SUPPORT - Верстка лендинга",
+        "prdescription": "Адаптивная верстка одностраничного сайта компании.",
+        "prtags": [
+            "html",
+            "css",
+            "jquery",
+            "photoshop"
+        ],
+        "prlink": "https://ktr92.github.io/os-empis-support/",
+        "prgit": "https://github.com/ktr92/os-empis-support",
+        "prwork": "//support.empis.ru/",
+        "prsort": 1268,
+        "__v": 0
+    },
+    {
+        "_id": "624188a65249548129e7235d",
+        "prname": "STAMP-MSK - Верстка сайта с каталогом",
+        "prdescription": "Адаптивная верстка сайта компании с каталогом печатей. \nВ демо содержится не весь функционал. Сайт был значительно доработан мной в плане front-end на JS, после интеграции программистом на Битрикс. ",
+        "prtags": [
+            "html",
+            "css",
+            "js",
+            "photoshop"
+        ],
+        "prlink": "https://ktr92.github.io/stamp/",
+        "prgit": "https://github.com/ktr92/stamp",
+        "prwork": "//stamp-msk.ru/",
+        "prsort": 1270,
+        "__v": 0
+    },
+    {
+        "_id": "624180325249548129e72340",
+        "prname": "SOFIARUGS - Верстка интернет магазина",
+        "prdescription": "Адаптивная верстка сайта для магазина под требования Битрикс.",
+        "prtags": [
+            "html",
+            "css",
+            "jquery",
+            "photoshop"
+        ],
+        "prlink": "https://ktr92.github.io/sofiarugs/",
+        "prgit": "https://github.com/ktr92/sofiarugs",
+        "prwork": "//sofiarugs.ru",
+        "prsort": 1271,
+        "__v": 0
+    },
+    {
+        "_id": "62417ca45249548129e7233c",
+        "prname": "FISHORDER - Верстка макетов для мобильного приложения",
+        "prdescription": "Верстка макетов для интеграции интернет-магазина в мобильное приложение.",
+        "prtags": [
+            "html",
+            "css",
+            "jquery",
+            "photoshop"
+        ],
+        "prlink": "https://ktr92.github.io/fishorder.app/start.html",
+        "prgit": "https://github.com/ktr92/fishorder.app",
+        "prwork": "//fishorder.ru",
+        "prsort": 1272,
+        "__v": 0
+    },
+    {
+        "_id": "62419e765249548129e72385",
+        "prname": "HOSTELS - Верстка сайта с каталогом",
+        "prdescription": "Адаптивная верстка сайта для подбора недвижимости с фильтром, информационными страницами, модальными окнами, слайдерами. \nБыл интегрирован на Битрикс и существенно доработан, однако сайт прекратил свое существование, и ссылки на него нет.",
+        "prtags": [
+            "html",
+            "css",
+            "js",
+            "photoshop"
+        ],
+        "prlink": "https://ktr92.github.io/hostel/",
+        "prgit": "https://github.com/ktr92/hostel",
+        "prwork": "",
+        "prsort": 1272,
+        "__v": 0
+    },
+ {
+        "_id": "6240b850a20ea79d992ab801",
+        "prname": "PROVANS - Версткая сайта отеля",
+        "prdescription": "Адаптивная верстка сайта компании для последующей интеграции на Битрикс.",
+        "prtags": [
+            "html",
+            "css",
+            "jquery",
+            "photoshop"
+        ],
+        "prlink": "https://ktr92.github.io/provans/",
+        "prgit": "https://github.com/ktr92/provans/",
+        "prwork": "//seasons-hotel.ru/",
+        "__v": 0,
+        "prsort": 1261
+    },
+
     {
         "_id": "6598025aaa31ea981527265a",
-        "prname": "Верстка шаблона",
+        "prname": "Верстка шаблона для Wordpress",
         "prdescription": "Адаптивная верстка шаблона для новостного сайта",
         "prtags": [
             "html",
@@ -603,7 +841,7 @@
             "webpack",
             "figma"
         ],
-        "prlink": "//carving.tmweb.ru/",
+        "prlink": "https://ktr92.github.io/os-carving.ru/dist/",
         "prgit": "https://github.com/ktr92/os-carving.ru",
         "prwork": "",
         "prsort": 45,
@@ -753,246 +991,11 @@
         "prsort": 140,
         "__v": 0
     },
-    {
-        "_id": "6241f2b38d35edecc1a1b6da",
-        "prname": "LUBICVETY - Верстка интернет магазина",
-        "prdescription": "Адаптивная верстка сайта под требования UMI.CMS с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами.",
-        "prtags": [
-            "html",
-            "css",
-            "jquery",
-            "figma"
-        ],
-        "prlink": "http://lubicvety.tmweb.ru/start.html",
-        "prgit": "https://github.com/ktr92/lubicvety",
-        "prwork": "https://lubicvety.ru/",
-        "prsort": 250,
-        "__v": 0
-    },
-    {
-        "_id": "6241a4f45249548129e72391",
-        "prname": "ADMINPANEL - Верстка личного кабинета",
-        "prdescription": "Адаптивная верстка личного кабинете для сервиса по работе с соцсетями. Передана на интеграцию программисту, но ссылки на рабочую версию у меня нет.",
-        "prtags": [
-            "html",
-            "css",
-            "jquery",
-            "figma"
-        ],
-        "prlink": "//adminpanelshow.tmweb.ru/start.html",
-        "prgit": "https://github.com/ktr92/adminpanel",
-        "prwork": "",
-        "prsort": 255,
-        "__v": 0
-    },
-    {
-        "_id": "6240b850a20ea79d992ab801",
-        "prname": "PROVANS - Версткая сайта отеля",
-        "prdescription": "Адаптивная верстка сайта компании для последующей интеграции на Битрикс.",
-        "prtags": [
-            "html",
-            "css",
-            "jquery",
-            "photoshop"
-        ],
-        "prlink": "https://ktr92.github.io/provans/",
-        "prgit": "https://github.com/ktr92/provans/settings",
-        "prwork": "//seasons-hotel.ru/",
-        "__v": 0,
-        "prsort": 1261
-    },
-    {
-        "_id": "6240b9eaa20ea79d992ab809",
-        "prname": "PRADEX - Верстка интернет-магазина",
-        "prdescription": "Адаптивная верстка сайта интернет-магазина с кастомным слайдером и анимацией.",
-        "prtags": [
-            "html",
-            "css",
-            "js",
-            "photoshop"
-        ],
-        "prlink": "https://ktr92.github.io/pradex/",
-        "prgit": "https://github.com/ktr92/pradex",
-        "prwork": "//pradex-moscow.ru/",
-        "__v": 0,
-        "prsort": 1262
-    },
-    {
-        "_id": "624186c15249548129e72353",
-        "prname": "SVETDORZNAK - Верстка интернет магазина",
-        "prdescription": "Адаптивная верстка сайта с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами. Реализован под интеграцию на Битрикс. ",
-        "prtags": [
-            "html",
-            "css",
-            "jquery",
-            "figma"
-        ],
-        "prlink": "https://ktr92.github.io/svetgorzkan/",
-        "prgit": "https://github.com/ktr92/svetgorzkan",
-        "prwork": "//svetdorznak.na4u.ru/",
-        "prsort": 1264,
-        "__v": 0
-    },
-    {
-        "_id": "624184765249548129e7234f",
-        "prname": "ZNAK23 - Верстка интернет магазина",
-        "prdescription": "Адаптивная верстка сайта с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами. Реализован под интеграцию на Битрикс. ",
-        "prtags": [
-            "html",
-            "css",
-            "jquery",
-            "figma"
-        ],
-        "prlink": "https://ktr92.github.io/23znak/",
-        "prgit": "https://github.com/ktr92/23znak",
-        "prwork": "//znak23.ru/",
-        "prsort": 1265,
-        "__v": 0
-    },
-    {
-        "_id": "62418a2c5249548129e72361",
-        "prname": "CHELAZ - Верстка сайта с каталогом",
-        "prdescription": "Адаптивная верстка небольшого сайта с каталогом для последующей интеграции на Битрикс.",
-        "prtags": [
-            "html",
-            "js",
-            "jquery",
-            "photoshop"
-        ],
-        "prlink": "https://ktr92.github.io/chelaz/",
-        "prgit": "https://github.com/ktr92/chelaz",
-        "prwork": "//chelaz.ru/",
-        "prsort": 1266,
-        "__v": 0
-    },
-    {
-        "_id": "62419d445249548129e72382",
-        "prname": "ZOLOTOYLEV - Верстка интернет-магазина",
-        "prdescription": "Адаптивная верстка интернет-магазина с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами. Приспособлен к интеграции на Битрикс.",
-        "prtags": [
-            "html",
-            "css",
-            "jquery",
-            "photoshop"
-        ],
-        "prlink": "https://ktr92.github.io/os-zolotoylev/",
-        "prgit": "https://github.com/ktr92/os-zolotoylev",
-        "prwork": "//zolotoylev.ru/",
-        "prsort": 1266,
-        "__v": 0
-    },
-    {
-        "_id": "6241bb525249548129e7239c",
-        "prname": "NBKI - Верстка сайта ",
-        "prdescription": "Адаптивная верстка сайта под Битрикс. ",
-        "prtags": [
-            "html",
-            "css",
-            "jquery",
-            "photoshop"
-        ],
-        "prlink": "//nbki.tmweb.ru/start.html",
-        "prgit": "",
-        "prwork": "",
-        "prsort": 1267,
-        "__v": 0
-    },
-    {
-        "_id": "6241a0f95249548129e7238b",
-        "prname": "EMPIS SUPPORT - Верстка лендинга",
-        "prdescription": "Адаптивная верстка одностраничного сайта компании.",
-        "prtags": [
-            "html",
-            "css",
-            "jquery",
-            "photoshop"
-        ],
-        "prlink": "https://ktr92.github.io/os-empis-support/",
-        "prgit": "https://github.com/ktr92/os-empis-support",
-        "prwork": "",
-        "prsort": 1268,
-        "__v": 0
-    },
-    {
-        "_id": "624188a65249548129e7235d",
-        "prname": "STAMP-MSK - Верстка сайта с каталогом",
-        "prdescription": "Адаптивная верстка сайта компании с каталогом печатей. \nВ демо содержится не весь функционал. Сайт был значительно доработан мной в плане front-end на JS, после интеграции программистом на Битрикс. ",
-        "prtags": [
-            "html",
-            "css",
-            "js",
-            "photoshop"
-        ],
-        "prlink": "https://ktr92.github.io/stamp/",
-        "prgit": "https://github.com/ktr92/stamp",
-        "prwork": "//stamp-msk.ru/",
-        "prsort": 1270,
-        "__v": 0
-    },
-    {
-        "_id": "624180325249548129e72340",
-        "prname": "SOFIARUGS - Верстка интернет магазина",
-        "prdescription": "Адаптивная верстка сайта для магазина под требования Битрикс.",
-        "prtags": [
-            "html",
-            "css",
-            "jquery",
-            "photoshop"
-        ],
-        "prlink": "https://ktr92.github.io/sofiarugs/",
-        "prgit": "https://github.com/ktr92/sofiarugs",
-        "prwork": "sofiarugs.ru",
-        "prsort": 1271,
-        "__v": 0
-    },
-    {
-        "_id": "62417ca45249548129e7233c",
-        "prname": "FISHORDER - Верстка макетов для мобильного приложения",
-        "prdescription": "Верстка макетов для интеграции интернет-магазина в мобильное приложение.",
-        "prtags": [
-            "html",
-            "css",
-            "jquery",
-            "photoshop"
-        ],
-        "prlink": "https://ktr92.github.io/fishorder.app/",
-        "prgit": "https://github.com/ktr92/fishorder.app",
-        "prwork": "//fishorder.ru",
-        "prsort": 1272,
-        "__v": 0
-    },
-    {
-        "_id": "62419e765249548129e72385",
-        "prname": "HOSTELS - Верстка сайта с каталогом",
-        "prdescription": "Адаптивная верстка сайта для подбора недвижимости с фильтром, информационными страницами, модальными окнами, слайдерами. \nБыл интегрирован на Битрикс и существенно доработан, однако сайт прекратил свое существование, и ссылки на него нет.",
-        "prtags": [
-            "html",
-            "css",
-            "js",
-            "photoshop"
-        ],
-        "prlink": "https://ktr92.github.io/hostel/",
-        "prgit": "https://github.com/ktr92/hostel",
-        "prwork": "",
-        "prsort": 1272,
-        "__v": 0
-    },
-    {
-        "_id": "6241a5be5249548129e72395",
-        "prname": "PIONEER-ESTATE - Верста сайта подбора недвижимости",
-        "prdescription": "Адаптивная верстка сайта под Битрикс с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами.",
-        "prtags": [
-            "html",
-            "css",
-            "js",
-            "photoshop"
-        ],
-        "prlink": "//pioneer-estate.tmweb.ru/start.html",
-        "prgit": "https://ktr92.github.io/os-pioneer.ru/",
-        "prwork": "//www.pioneer-estate.ru/",
-        "prsort": 1273,
-        "__v": 0
-    },
+  
+   
+  
+
+   
     {
         "_id": "6243069f6d5984ee0e186825",
         "prname": "VELVETMEDIA - Верстка сайта",

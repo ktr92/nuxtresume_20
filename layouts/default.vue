@@ -5,7 +5,10 @@
     </el-header>
    <el-container>
     <el-main>
-      <Nuxt />
+      <Transition name="fade" appear>
+        <Nuxt />
+      </Transition>
+
     </el-main>
   </el-container>
   </div>
@@ -20,5 +23,12 @@ export default {
 </script>
 
 <style>
-
+.fade-enter-active, 
+.fade-leave-active {
+  transition: transform 0.5s;
+}
+.fade-enter, 
+.fade-leave-to {
+  transform: translateX(-100%);
+}
 </style>

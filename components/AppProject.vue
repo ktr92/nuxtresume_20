@@ -49,7 +49,6 @@ export default {
     };
   },
   mounted() {
-    console.log(this.index)
     this.tags = this.$store.getters["projects/tags"];
   },
 };

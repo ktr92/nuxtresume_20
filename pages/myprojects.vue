@@ -49,7 +49,7 @@ import { mapState } from "vuex";
 import jsonprojects from "~/static/projects.json";
 export default {
   mounted() {
-    console.log("jsonprojects: ", jsonprojects);
+   // console.log("jsonprojects: ", jsonprojects);
     this.projects = jsonprojects;
   },
   data() {
@@ -66,6 +66,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+
 .el-message--warning .el-message__content {
     color: #583705;
 }</style>
